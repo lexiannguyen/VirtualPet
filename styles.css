@@ -11,7 +11,11 @@ body {
     margin-right: auto;
    
 }
-
+canvas {
+	border-style: solid black;
+    box-shadow: 4px 4px 3px #40e36b;
+}
+	
 #VirtualPet {
 	border-style: solid black;
     box-shadow: 4px 4px 3px #40e36b;
