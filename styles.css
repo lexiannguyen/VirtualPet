@@ -9,13 +9,14 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: solid black;
+    border-style: solid black;
+    box-shadow: 4px 4px 3px #40e36b;
 }
 
-
+#VirtualPet
 
 header {
-	
+	text-shadow: 2px 2px 5px #40e36b;
 }
 
 footer {
