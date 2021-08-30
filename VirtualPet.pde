@@ -57,6 +57,7 @@ void draw() {
   ellipse(200, 190, 30, 20); //nose
   ellipse(150, 170, 50, 50); //eyes
   ellipse(250, 170, 50, 50);
+  stroke(40);
   line(180, 220, 210, 220);
   fill(255, 255, 255);
 
