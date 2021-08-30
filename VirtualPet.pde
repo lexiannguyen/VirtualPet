@@ -1,4 +1,4 @@
-/*System.out.println("Hello"); 
+import processing.serial.*;
 ellipse(200, 100, 30, 100);
 size(400, 400); /* canvas size. default = 100x100 */
 /*triangle(150, 20, 20, 280, 280, 280); */ /*points go counter clockwise*/
@@ -8,8 +8,15 @@ nofill(); = no color fill , default is white fill
 background, fill,
 textAlign(CENTER), textSize, text(this is text, x, y 
 void setup(), draw()*/
+
+int constant = 270;
+float angle = 250.0; //angle from some point??
+int scalar = 50;
+float speed = 0.06;
+
 void setup() {
   size(400, 400);
+  smooth();
   fill(225, 225, 225);
 }
 void draw() {
@@ -54,7 +61,13 @@ void draw() {
   fill(255, 255, 255);
 
   
+  fill(0, 0, 0);
 
+  float x = constant + sin(angle) * scalar;
+  float y = constant + cos(angle) * scalar;
+
+  ellipse(x,y,80,60);
+  angle = angle + speed;
  
 
    
