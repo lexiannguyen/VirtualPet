@@ -62,6 +62,7 @@ void draw() {
 
   
   fill(0, 0, 0);
+  line(180, 220, 210, 220);
 
   float x = constant + sin(angle) * scalar;
   float y = constant + cos(angle) * scalar;
