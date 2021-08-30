@@ -13,6 +13,10 @@ void setup() {
   fill(225, 225, 225);
 }
 void draw() {
+
+  fill(176, 235, 233);
+  rect(0, 0, 400, 350);
+  
   int b = 0;
   fill(135, 212, 146);
   noStroke();
