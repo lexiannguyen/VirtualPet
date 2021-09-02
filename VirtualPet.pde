@@ -71,6 +71,32 @@ void draw() {
 
   ellipse(x,y,80,60);
   angle = angle + speed;
+  
+  /* 
+  import processing.serial.*;
+import cc.arduino.*;
+Arduino arduino; //declares variable called arduino
+//int constant = 270;
+float angle = 250.0; //angle from some point??
+//int scalar = 50;
+float speed = 0.01;
+float cx = 290;
+float cy = 380;
+float r = 50;
+float ry = 40;
+
+  float ya = arduino.analogRead(5)/70.0;
+  System.out.println(ya);
+//2.6 = low, 3.5 - high
+  fill(0, 0, 0);
+  cx = 266 + abs(r*cos(ya));
+  cy = 300 + ry*sin(ya);
+  
+  //float x = 300 + sin(angle) * ya;
+  //loat y = 320 + cos(angle) * ya;
+
+  ellipse(cx,cy,80,60);
+  angle = angle + speed;  */
  
 
    
